@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    text-align: center;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #111;
+}
+
+nav li {
+    float: left;
+}
+
+nav li.right {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #222;
+}
+
+main {
+    background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 85vh;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content {
+    margin:20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    width: 75%;
+    height: max-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+#header {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+#content2 {
+    margin:10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    padding: 15px;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+#content2 ul {
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    columns: 3;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: #27ae60;
+    border: none;
+    color: white;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
